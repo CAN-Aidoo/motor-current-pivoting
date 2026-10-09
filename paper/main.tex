@@ -258,7 +258,7 @@ Two qualifications matter. Scored against the object's geometric angle, the clos
 \section{Conclusion}
 The current of a wrist actuator is enough to measure, and to control, the angle of an object pivoting under gravity, in simulation and within the limits above. A slow, downhill wrist sweep with a four-term least-squares fit removes the need to know the object or calibrate the motor, and it tolerates gearbox friction larger than the gravity signal. A converter whose step is no larger than about twice the current noise makes a simple linearized error budget accurate. The approach targets inexpensive grippers that have no tactile sensing, and the next test is whether these results hold on such hardware.
 
-\paragraph{Reproducibility.} The simulation model, motor and sensing-chain model, estimator, controller, raw results and figure scripts accompany this preprint. Every number in this paper is generated from the result files by a script rather than typed by hand.
+\paragraph{Reproducibility.} The simulation model, motor and sensing-chain model, estimator, controller, raw results and figure scripts are archived at \url{https://doi.org/10.5281/zenodo.23264189} (release v1.0.0 of \url{https://github.com/CAN-Aidoo/motor-current-pivoting}). Every number in this paper is generated from the result files by a script rather than typed by hand.
 
 \paragraph{Use of AI tools.} An AI assistant (Claude, Anthropic) was used to write and debug simulation and analysis code and to draft and edit the text. The author directed the study, reviewed the code and results, and is responsible for the content.
 
@@ -274,6 +274,6 @@ The current of a wrist actuator is enough to measure, and to control, the angle 
 \bibitem{armstrong1994} B.~Armstrong-H\'elouvry, P.~Dupont, and C.~Canudas de Wit, ``A survey of models, analysis tools and compensation methods for the control of machines with friction,'' \emph{Automatica}, vol.~30, no.~7, pp.~1083--1138, 1994.
 \bibitem{gray1993} R.~M.~Gray and T.~G.~Stockham, ``Dithered quantizers,'' \emph{IEEE Trans.\ Information Theory}, vol.~39, no.~3, pp.~805--812, 1993.
 \bibitem{todorov2012} E.~Todorov, T.~Erez, and Y.~Tassa, ``MuJoCo: A physics engine for model-based control,'' in \emph{Proc.\ IEEE/RSJ Int.\ Conf.\ Intelligent Robots and Systems (IROS)}, 2012, pp.~5026--5033.
-\bibitem{aidoo2026} C.~Aidoo, ``Auditing a slip-induced reorientation study: An evaluation artifact and a corrected gravity-pivoting testbed,'' CANLABS technical report, v2, October 2026.
+\bibitem{aidoo2026} C.~Aidoo, ``Auditing a slip-induced reorientation study: An evaluation artifact and a corrected gravity-pivoting testbed,'' technical report, version 2.0, Zenodo, October 2026. \url{https://doi.org/10.5281/zenodo.23266140}
 \end{thebibliography}
 \end{document}
