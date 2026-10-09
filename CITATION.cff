@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "motor-current-pivoting: code and data for Gravity Pivoting from Motor Current"
+type: software
+authors:
+  - family-names: Aidoo
+    given-names: Clement
+    affiliation: CANLABS
+    orcid: "https://orcid.org/0009-0005-6893-2677"    your ORCID iD and uncomment
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/CAN-Aidoo/motor-current-pivoting"
+keywords:
+  - robotics
+  - pivoting
+  - in-hand manipulation
+  - motor current sensing
+  - sensorless
+  - MuJoCo

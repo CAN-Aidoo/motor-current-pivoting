@@ -1,0 +1,50 @@
+{
+ "n": 40,
+ "open_nominal": {
+  "rms": 0.4132508676790672,
+  "median_abs": 0.32456726417193316,
+  "p95_abs": 0.6874438051736966,
+  "mean_signed": 0.05268078698133327,
+  "within_0p05": 0.025,
+  "within_0p1": 0.025,
+  "dropped": 0,
+  "rod_angle_rms": 0.4113307135554297
+ },
+ "open_oracle": {
+  "rms": 0.10667482714805218,
+  "median_abs": 0.0725030233105986,
+  "p95_abs": 0.19735510190384356,
+  "mean_signed": -0.08714280669556414,
+  "within_0p05": 0.3,
+  "within_0p1": 0.725,
+  "dropped": 0,
+  "rod_angle_rms": 0.060397851990382445
+ },
+ "closed_oracle": {
+  "rms": 0.027094608504432207,
+  "median_abs": 0.011406712643119266,
+  "p95_abs": 0.052296538197619674,
+  "mean_signed": 0.0012981867958333268,
+  "within_0p05": 0.925,
+  "within_0p1": 1.0,
+  "dropped": 0,
+  "rod_angle_rms": 0.0526578078658184,
+  "probes_mean": 16.425,
+  "probes_max": 23,
+  "t_sim_mean_s": 143.36822406272307
+ },
+ "closed_current": {
+  "rms": 0.03136133264460793,
+  "median_abs": 0.013194607988198881,
+  "p95_abs": 0.06827677185025259,
+  "mean_signed": -0.006315076081728359,
+  "within_0p05": 0.9,
+  "within_0p1": 0.975,
+  "dropped": 0,
+  "rod_angle_rms": 0.05161008450725414,
+  "probes_mean": 16.625,
+  "probes_max": 22,
+  "t_sim_mean_s": 325.827282046165,
+  "self_estimate_rms": 0.00789491530464693
+ }
+}
