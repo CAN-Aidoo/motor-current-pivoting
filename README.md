@@ -1,6 +1,8 @@
 # motor-current-pivoting
 
-Code and data for the preprint **"Gravity Pivoting from Motor Current: Calibration-Free Angle Estimation and the Sensing Budget It Requires"** (Clement Aidoo, CANLABS, 2026).
+[![Preprint](https://img.shields.io/badge/engrXiv-10.31224%2F8492-b31b1b.svg)](https://doi.org/10.31224/8492) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23264189.svg)](https://doi.org/10.5281/zenodo.23264189)
+
+Code and data for the preprint **"Gravity Pivoting from Motor Current: Calibration-Free Angle Estimation and the Sensing Budget It Requires"** (Clement Aidoo, CANLABS, 2026), [doi:10.31224/8492](https://doi.org/10.31224/8492).
 
 A parallel-jaw gripper pivots a grasped rod by loosening its grip and letting gravity rotate it. This repository shows, in MuJoCo simulation, that the wrist motor's current is enough to measure and control the rod's angle. It contains:
 
