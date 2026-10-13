@@ -1,4 +1,12 @@
-MIT License
+## Citation
+
+If you use this work, please cite the paper:
+
+> Aidoo, C. (2026). *Gravity Pivoting from Motor Current: Calibration-Free Angle Estimation and the Sensing Budget It Requires*. engrXiv. https://doi.org/10.31224/8492
+
+For the code itself, cite the archived release:
+
+> Aidoo, C. (2026). *motor-current-pivoting: code and data for Gravity Pivoting from Motor Current* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23264189
 
 Copyright (c) 2026 Clement Aidoo
 
