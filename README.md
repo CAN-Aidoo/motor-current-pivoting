@@ -1,3 +1,4 @@
+   ![Banner](figures/banner_motor_current_pivoting.png)
 # motor-current-pivoting
 
 [![Preprint](https://img.shields.io/badge/engrXiv-10.31224%2F8492-b31b1b.svg)](https://doi.org/10.31224/8492) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23264189.svg)](https://doi.org/10.5281/zenodo.23264189)
